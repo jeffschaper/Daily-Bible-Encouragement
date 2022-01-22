@@ -1,0 +1,61 @@
+body{
+    background-color: #35363A;
+    color: #ffffff;
+}
+
+/*Position of container should always be in the center of the screen*/
+.container{
+    height: 100%;
+    padding-top: 300px;
+    margin: auto;
+    font-size: 18pt;
+}
+
+.subContainer{
+    width:75%;
+    margin: auto;
+}
+
+.verse{
+    width: 75%;
+    margin: auto;
+}
+
+#verse{
+    text-align: center;
+    margin: auto;
+}
+
+.reference{
+    float: right;
+    padding-right: 150px;
+}
+
+/*position of footer should always be at the bottom of the screen*/
+.footer{
+    font-size: 8pt;
+    position: fixed;
+    bottom: 0px;
+    left: 5px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex{
+    opacity: 1;
+    padding-left: 10px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.flex:hover{
+    opacity: 0.4;
+}
+
+.flex .fa{
+    font-size: 14px;
+    color: #ffffff;
+}
